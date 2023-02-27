@@ -1,0 +1,77 @@
+.register{
+    max-width: 1500px;
+    width: 1500px;                                     
+    display:flex;
+    border-radius: px;
+    /* box-shadow: 1px 3px 10px #e9ecef; */
+    background-image:url('../images/longu.png');
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 0px;
+  }
+  
+  
+  .register span{
+    color: #0e0f10;
+    font-size: large;
+  }
+  
+  #form{
+    max-width: 320px;
+    width: 100vw;
+    margin: 2em auto;
+  }
+  
+  #form >  input{
+    border: 1px solid #80799b;
+    padding: 1.2em 1em;
+    border-radius: 60px;
+  }
+  
+  #form > input:focus{
+    outline: none;
+  }
+  
+  button{
+    background-color: #004907;
+    padding:15px 32px;
+    text-align: center;
+    
+    text-shadow: #e9ecef;
+    cursor:pointer;
+    border-radius: 30px;
+    max-width: 10cm;
+    width: 10vw;
+    margin: 0em auto;
+    border: none;
+    /* transition: inherit; */
+  }
+  .flex{
+    display:flex;
+    gap: 1em;
+  }
+  .flex-col{
+    flex-direction:column;
+  }
+  .register .col-1{
+    margin:fill;
+    padding: 9em 10em;
+    margin-left:18em;
+    margin-bottom: 0;
+  }
+  
+  .register .col-2 img{
+    width: 0px;
+    height: 100%;
+    object-fit:cover;
+    align-self:flex-end;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: none;
+  }
+  
+  @media screen and (min-width: 860px)  {
+    .register .col-2 img{
+      display: initial;
+    }
+  }
